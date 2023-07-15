@@ -45,7 +45,8 @@ ALGORITHMS = [
     'TRM',
     'IB_ERM',
     'IB_IRM',
-    'ITTA'
+    'ITTA',
+    'RIDG'
 ]
 
 def get_algorithm_class(algorithm_name):
