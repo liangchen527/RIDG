@@ -223,7 +223,7 @@ class RIDG(Algorithm):
 						self.hparams['momentum'] * rational_mean
 	    loss_rational += ((rational[:, all_y==classes[i]] - (self.rational_bank[classes[i]].unsqueeze(1)).detach())**2).sum(dim=2).mean()
 	loss = F.cross_entropy(logits, all_y)
-	loss += self.hparams['logits_reg'] * loss_rational
+	loss += self.hparams['ridg_reg'] * loss_rational
 
 	self.optimizer.zero_grad()
 	loss.backward()
