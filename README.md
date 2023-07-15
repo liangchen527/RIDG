@@ -33,6 +33,13 @@ Environment:
 	PIL: 7.2.0
 ```
 
+## How to run, and collect results
+
+Please refer to details in the original project page: [Domainbed](https://github.com/facebookresearch/DomainBed)
+
+Main logic of this work is at domainbed.algorithms.RIDG
+
+
 ## Citation
 
 ```
