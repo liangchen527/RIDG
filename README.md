@@ -1,6 +1,6 @@
 # Domain Generalization via Rationale Invariance (ICCV'23)
 
-Official PyTorch implementation of "Domain Generalization via Rationale Invariance".
+Official PyTorch implementation of [Domain Generalization via Rationale Invariance](https://arxiv.org/abs/2308.11158).
 
 Liang Chen, Yong Zhang, Yibing Song, Anton van den Hengel, Lingqiao Liu
 
